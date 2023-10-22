@@ -23,4 +23,3 @@ function knapsack(value, weight, w, n, memo) {
 }
 
 console.log(knapsack(value, weight, W, N, memo));
-console.log(memo);

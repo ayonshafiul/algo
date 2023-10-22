@@ -13,7 +13,6 @@ for (let i = 0; i <= N; i++) {
     }
   }
 }
-console.log(memo);
 
 function knapsackTable(value, weight, w, n) {
   for (let i = 1; i <= n; i++) {
@@ -31,4 +30,3 @@ function knapsackTable(value, weight, w, n) {
   return memo[n][w];
 }
 console.log(knapsackTable(value, weight, W, N));
-console.log(memo);
